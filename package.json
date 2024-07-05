@@ -1,7 +1,7 @@
 {
   "name": "valaxy-addon-hitokoto",
   "version": "0.0.1",
-  "description": "Template for Valaxy Addon.",
+  "description": "Hitokoto Composition API for Valaxy",
   "repository": "https://github.com/valaxyjs/valaxy-addon-hitokoto",
   "keywords": [
     "valaxy",
@@ -9,5 +9,6 @@
     "valaxy-addon",
     "hitokoto"
   ],
-  "main": "index.ts"
+  "main": "index.ts",
+  "types": "index.d.ts"
 }
