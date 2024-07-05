@@ -184,8 +184,9 @@ async function switchHitokotoType(newTypes: HitokotoType[]) {
 
 ## 其他
 
-- 自行部署: <https://developer.hitokoto.cn/sentence/deploy.html>
-- 语句库: <https://github.com/hitokoto-osc/sentences-bundle>
+自行部署: <https://developer.hitokoto.cn/sentence/deploy.html>
+
+语句库: <https://github.com/hitokoto-osc/sentences-bundle>
 
 请求地址：
 
