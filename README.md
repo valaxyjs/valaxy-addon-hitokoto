@@ -57,7 +57,7 @@ export default defineValaxyConfig({
 
 ```vue
 <script setup lang="ts">
-import { HitokotoType, useAddonHitokoto } from 'valaxy-addon-hitokoto'
+import { useAddonHitokoto } from 'valaxy-addon-hitokoto'
 
 const { hitokoto } = useAddonHitokoto()
 </script>
@@ -75,7 +75,7 @@ const { hitokoto } = useAddonHitokoto()
 ```vue
 <script setup lang="ts">
 import { useIntervalFn } from '@vueuse/core'
-import { HitokotoType, useAddonHitokoto } from 'valaxy-addon-hitokoto'
+import { useAddonHitokoto } from 'valaxy-addon-hitokoto'
 
 const { hitokoto, fetchHitokoto } = useAddonHitokoto()
 
@@ -119,7 +119,7 @@ async function manualRefresh() {
 ```
 
 > [!IMPORTANT]
-> 为降低运算服务器的负载，hitokoto 国际站目前由于持续的流量、负载和攻击问题，启用了缓存机制，缓存时间为2秒。这意味着在同一地区、同一路线且使用相同参数的访问者在短时间内将获得相同的句子， 进多信息请参阅 [一言开发者中心](https://developer.hitokoto.cn/sentence/#请求地址)
+> 为降低运算服务器的负载，hitokoto 国际站目前由于持续的流量、负载和攻击问题，启用了缓存机制，缓存时间为2秒。这意味着在同一地区、同一路线且使用相同参数的访问者在短时间内将获得相同的句子， 更多信息请参阅 [一言开发者中心](https://developer.hitokoto.cn/sentence/#请求地址)
 
 ## 多页面
 
